@@ -1,0 +1,12 @@
+diff --git a/cppsdk/src/bench/bench.cpp b/cppsdk/src/bench/bench.cpp
+index f02dddd..263cd7c 100644
+--- a/cppsdk/src/bench/bench.cpp
++++ b/cppsdk/src/bench/bench.cpp
+@@ -8,6 +8,7 @@
+ #include "file_util.h"
+ #include <thread>
+ #include <cstdio>
++#include <memory>
+ 
+ enum {
+     RPC_SUCCESS = 0,
